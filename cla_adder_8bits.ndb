@@ -1,0 +1,157 @@
+NDB006
+The number of symbol table entries is: 10
+The length of the symbol table is: 285
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|and2_8bits:7|
+=	|xor2_8bits:8|
+L	|xor2_8bits:14|
+\	|cla_adder_def_carry_8bits:11|
+{	|cla_adder_def_carry_8bits:11|and5:32|
+"D	|cla_adder_def_carry_8bits:11|and5:57|
+"k	|cla_adder_def_carry_8bits:11|and5:46|
+#4	|cla_adder_def_carry_8bits:11|and5:25|
+#[	|cla_adder_def_carry_8bits:11|and5:19|
+
+The number of name info structs is : 136
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IFkb	!	A0	"*
+#	IFkb	!	A1	")
+$	IFkb	!	A2	"(
+%	IFkb	!	A3	"'
+&	IFkb	!	A4	"&
+'	IFkb	!	A5	"%
+(	IFkb	!	A6	"$
+)	IFkb	!	A7	"#
+*	IFkb	!	B0	""
++	IFkb	!	B1	"!
+,	IFkb	!	B2	~
+-	IFkb	!	B3	}
+.	IFkb	!	B4	|
+/	IFkb	!	B5	{
+0	IFkb	!	B6	z
+1	IFkb	!	B7	y
+2	IFkb	!	c_in	x
+3	IFkc	!	c_out	o
+4	IFkc	!	S0	w
+5	IFkc	!	S1	v
+6	IFkc	!	S2	u
+7	IFkc	!	S3	t
+8	IFkc	!	S4	s
+9	IFkc	!	S5	r
+:	IFkc	!	S6	q
+;	IFkc	!	S7	p
+<	IUVC	.	E	:10	#]
+=	IUVC	.	D	:11	#^
+>	IUVC	.	K	:4	#Z
+?	IUVC	.	J	:5	#a
+@	IUVC	.	I	:6	#`
+A	IUVC	.	H	:7	#_
+B	IUVC	.	G	:8	#[
+C	IUVC	.	F	:9	#\
+D	IM|o	.	=	S0	#^
+E	IM|o	.	<	S1	#]
+F	IM|o	.	C	S2	#\
+G	IM|o	.	B	S3	#[
+H	IM|o	.	A	S4	#_
+I	IM|o	.	@	S5	#`
+J	IM|o	.	?	S6	#a
+K	IM|o	.	>	S7	#Z
+L	IFkI	\	:11	%G
+M	IFkI	\	:12	%>
+N	IUVC	\	"&	:13	%J
+O	IFkI	\	:14	%P
+P	IFkI	\	:15	%O
+Q	IFkI	\	:17	%B
+R	IFkI	\	:18	%9
+S	IUVC	\	"'	:20	%Q
+T	IUVC	\	"(	:24	%R
+U	IFkI	\	:26	%N
+V	IFkI	\	:27	%F
+W	IFkI	\	:28	%=
+X	IFkI	\	:29	%V
+Y	IFkI	\	:30	%S
+Z	IFkI	\	:33	%K
+[	IFkI	\	:34	%E
+\	IFkI	\	:35	%<
+]	IFkI	\	:36	%W
+^	IUVC	\	")	:38	%\
+_	IUVC	\	"*	:42	%]
+`	IFkI	\	:43	%[
+a	IFkI	\	:44	%U
+b	IFkI	\	:47	%M
+c	IFkI	\	:48	%D
+d	IFkI	\	:49	%;
+e	IFkI	\	:5	%@
+f	IFkI	\	:51	%Z
+g	IFkI	\	:54	%X
+h	IFkI	\	:55	%Y
+i	IFkI	\	:56	%T
+j	IFkI	\	:58	%L
+k	IFkI	\	:59	%C
+l	IUVC	\	"$	:6	%A
+m	IFkI	\	:60	%:
+n	IFkI	\	:62	%^
+o	IUVC	\	"+	:64	%_
+p	IFkI	\	:7	%H
+q	IUVC	\	"%	:8	%I
+r	IFkI	\	:9	%?
+s	IUVC	#[	u	:10	&B
+t	IFkI	#[	:9	&A
+u	IM|o	#[	s	Q	&B
+v	IUVC	#4	x	:10	&6
+w	IFkI	#4	:9	&5
+x	IM|o	#4	v	Q	&6
+y	IUVC	{	{	:10	%o
+z	IFkI	{	:9	%n
+{	IM|o	{	y	Q	%o
+|	IUVC	"k	~	:10	&*
+}	IFkI	"k	:9	&)
+~	IM|o	"k	|	Q	&*
+"!	IUVC	"D	"#	:10	%|
+""	IFkI	"D	:9	%{
+"#	IM|o	"D	"!	Q	%|
+"$	IM|o	\	l	c0	%A
+"%	IM|o	\	q	c1	%I
+"&	IM|o	\	N	c2	%J
+"'	IM|o	\	S	c3	%Q
+"(	IM|o	\	T	c4	%R
+")	IM|o	\	^	c5	%\
+"*	IM|o	\	_	c6	%]
+"+	IM|o	\	o	c7	%_
+",	IUVC	L	"7	:12	$L
+"-	IUVC	L	";	:13	$S
+".	IUVC	L	":	:14	$R
+"/	IUVC	L	"9	:15	$Q
+"0	IUVC	L	"8	:16	$P
+"1	IUVC	L	"6	:17	$O
+"2	IUVC	L	"5	:18	$N
+"3	IUVC	L	"4	:19	$M
+"4	IM|o	L	"3	S0	$M
+"5	IM|o	L	"2	S1	$N
+"6	IM|o	L	"1	S2	$O
+"7	IM|o	L	",	S3	$L
+"8	IM|o	L	"0	S4	$P
+"9	IM|o	L	"/	S5	$Q
+":	IM|o	L	".	S6	$R
+";	IM|o	L	"-	S7	$S
+"<	IUVC	=	"G	:12	$$
+"=	IUVC	=	"K	:13	$+
+">	IUVC	=	"J	:14	$*
+"?	IUVC	=	"I	:15	$)
+"@	IUVC	=	"H	:16	$(
+"A	IUVC	=	"F	:17	$'
+"B	IUVC	=	"E	:18	$&
+"C	IUVC	=	"D	:19	$%
+"D	IM|o	=	"C	S0	$%
+"E	IM|o	=	"B	S1	$&
+"F	IM|o	=	"A	S2	$'
+"G	IM|o	=	"<	S3	$$
+"H	IM|o	=	"@	S4	$(
+"I	IM|o	=	"?	S5	$)
+"J	IM|o	=	">	S6	$*
+"K	IM|o	=	"=	S7	$+
