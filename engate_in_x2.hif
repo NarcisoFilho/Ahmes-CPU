@@ -24,48 +24,11 @@ HIF003
 --
 FILES
 {
-	or16.gdf
-	{
-		or16 [] []
-		{
-			1 [] [];
-		}
-	}
-	and5.gdf
-	{
-		and5 [] []
-		{
-			2 [] [];
-		}
-	}
-	mux_16x1.gdf
-	{
-		mux_16x1 [] []
-		{
-			0 [] [];
-		}
-	}
 }
 TREE
 {
-	mux_16x1::(0,0):(0): mux_16x1.gdf
+	engate_in_x2::(0,0):(0): engate_in_x2.gdf
 	{
-		or16::(0,0):(6): or16.gdf;
-		and5::(0,0):(114): and5.gdf;
-		and5::(0,0):(109): and5.gdf;
-		and5::(0,0):(104): and5.gdf;
-		and5::(0,0):(99): and5.gdf;
-		and5::(0,0):(94): and5.gdf;
-		and5::(0,0):(83): and5.gdf;
-		and5::(0,0):(78): and5.gdf;
-		and5::(0,0):(73): and5.gdf;
-		and5::(0,0):(44): and5.gdf;
-		and5::(0,0):(68): and5.gdf;
-		and5::(0,0):(38): and5.gdf;
-		and5::(0,0):(62): and5.gdf;
-		and5::(0,0):(32): and5.gdf;
-		and5::(0,0):(56): and5.gdf;
-		and5::(0,0):(20): and5.gdf;
-		and5::(0,0):(50): and5.gdf;
+		wire_2bits::(0,0):(6): wire_2bits.gdf;
 	}
 }

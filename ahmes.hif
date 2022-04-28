@@ -29,6 +29,74 @@ TREE
 {
 	ahmes::(0,0):(0): ahmes.gdf
 	{
+		counter_8bits::(0,0):(2): counter_8bits.gdf
+		{
+			mux_2x1::(0,0):(23): mux_2x1.gdf;
+			engate_in_x2::(0,0):(20): engate_in_x2.gdf
+			{
+				wire_2bits::(0,0):(6): wire_2bits.gdf;
+			}
+			counter_cell::(0,0):(1): counter_cell.gdf
+			{
+				engate_in_x2::(0,0):(32): engate_in_x2.gdf;
+				mux_2x1::(0,0):(31): mux_2x1.gdf;
+				mux_4x1::(0,0):(14): mux_4x1.gdf;
+			}
+			counter_cell::(0,0):(10): counter_cell.gdf
+			{
+				engate_in_x2::(0,0):(32): engate_in_x2.gdf;
+				mux_2x1::(0,0):(31): mux_2x1.gdf;
+				mux_4x1::(0,0):(14): mux_4x1.gdf;
+			}
+			counter_cell::(0,0):(12): counter_cell.gdf
+			{
+				engate_in_x2::(0,0):(32): engate_in_x2.gdf;
+				mux_2x1::(0,0):(31): mux_2x1.gdf;
+				mux_4x1::(0,0):(14): mux_4x1.gdf;
+			}
+			counter_cell::(0,0):(14): counter_cell.gdf
+			{
+				engate_in_x2::(0,0):(32): engate_in_x2.gdf;
+				mux_2x1::(0,0):(31): mux_2x1.gdf;
+				mux_4x1::(0,0):(14): mux_4x1.gdf;
+			}
+			counter_cell::(0,0):(13): counter_cell.gdf
+			{
+				engate_in_x2::(0,0):(32): engate_in_x2.gdf;
+				mux_2x1::(0,0):(31): mux_2x1.gdf;
+				mux_4x1::(0,0):(14): mux_4x1.gdf;
+			}
+			counter_cell::(0,0):(17): counter_cell.gdf
+			{
+				engate_in_x2::(0,0):(32): engate_in_x2.gdf;
+				mux_2x1::(0,0):(31): mux_2x1.gdf;
+				mux_4x1::(0,0):(14): mux_4x1.gdf;
+			}
+			counter_cell::(0,0):(16): counter_cell.gdf
+			{
+				engate_in_x2::(0,0):(32): engate_in_x2.gdf;
+				mux_2x1::(0,0):(31): mux_2x1.gdf;
+				mux_4x1::(0,0):(14): mux_4x1.gdf;
+			}
+			counter_cell::(0,0):(15): counter_cell.gdf
+			{
+				engate_in_x2::(0,0):(32): engate_in_x2.gdf;
+				mux_2x1::(0,0):(31): mux_2x1.gdf;
+				mux_4x1::(0,0):(14): mux_4x1.gdf;
+			}
+			counter_cell::(0,0):(18): counter_cell.gdf
+			{
+				engate_in_x2::(0,0):(32): engate_in_x2.gdf;
+				mux_2x1::(0,0):(31): mux_2x1.gdf;
+				mux_4x1::(0,0):(14): mux_4x1.gdf;
+			}
+			counter_cell::(0,0):(19): counter_cell.gdf
+			{
+				engate_in_x2::(0,0):(32): engate_in_x2.gdf;
+				mux_2x1::(0,0):(31): mux_2x1.gdf;
+				mux_4x1::(0,0):(14): mux_4x1.gdf;
+			}
+		}
 		ula_ahmes::(0,0):(1): ula_ahmes.gdf
 		{
 			not_8bits::(0,0):(97): not_8bits.gdf;
